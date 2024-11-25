@@ -11,6 +11,17 @@
     </style>
     <meta http-equiv="Cache-Control" content="no-Cache">
     <meta http-equiv="Pragma" content="no-cache">
+    <script type="text/javascript">
+        // Instana EUM (End User Monitoring) script configuration
+        (function(i,s,o,g,r,a,m){i['InstanaEumObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://eum.instana.io/eum.min.js','ineum');
+        
+        ineum('reportingUrl', 'https://eum-green-saas.instana.io');
+        ineum('key', 'z9R5eTnJS7KNGb-E4Y_rwA');
+        ineum('trackSessions');
+    </script>
 </head>
 
 <body ng-app="robotshop">
